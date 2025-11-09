@@ -249,6 +249,12 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Cell Phone";
+				TargetAttributes = {
+					BCF9D15514EAD24200986461 = {
+						DevelopmentTeam = Q3X6J5MGMJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = BCF9D15014EAD24200986461 /* Build configuration list for PBXProject "BenchmarkSuite" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,12 +434,17 @@
 		BCF9D16F14EAD24200986461 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3X6J5MGMJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BenchmarkSuite/BenchmarkSuite-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "BenchmarkSuite/BenchmarkSuite-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.BenchmarkSuite.zl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,12 +452,17 @@
 		BCF9D17014EAD24200986461 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3X6J5MGMJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BenchmarkSuite/BenchmarkSuite-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "BenchmarkSuite/BenchmarkSuite-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunsetlakesoftware.BenchmarkSuite.zl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
